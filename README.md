@@ -1,7 +1,7 @@
  - Nome: Gabriel Sobral Dos Santos
  - Email: Gabriel.Santos378@fatec.sp.gov.br
 
-# Lista Ligada - Complmenentos
+# Lista Ligada - Complementos
 ---
 
 ## Objetivos
@@ -17,11 +17,11 @@ Faça um **fork** deste repositório e realize as seguintes atividades:
 
 Projeto ListaLigada
 
-- [ ] Altere a função inserirElemento de maneira que seja usado  um ponteiro para o último elemento.
+- [x] Altere a função inserirElemento de maneira que seja usado  um ponteiro para o último elemento.
 
 
 Projeto ListaLigadaOrdenada
 
-- [ ] Altere a função inserirElemento de maneira que os elementos sejam inseridos em ordem e não duplicados.
-- [ ] Altere a funções buscarElemento e excluirElemento para que sejam otimizadas já que os elementos da lista estão em ordem.
+- [x] Altere a função inserirElemento de maneira que os elementos sejam inseridos em ordem e não duplicados.
+- [x] Altere a funções buscarElemento e excluirElemento para que sejam otimizadas já que os elementos da lista estão em ordem.
 

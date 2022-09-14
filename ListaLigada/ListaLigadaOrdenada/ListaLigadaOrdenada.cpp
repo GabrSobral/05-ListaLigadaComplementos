@@ -46,8 +46,7 @@ void menu() {
 		cout << "Opcao: ";
 		cin >> op;
 
-		switch (op)
-		{
+		switch (op) {
 		case 1: initialize();
 			break;
 		case 2: showListLength();
@@ -168,16 +167,17 @@ void removeElement() {
 	cin >> inputValue;
 
 	Node* aux = firstElement;
+
 	while (aux->prox != NULL) {
 		Node* nextElement = aux->prox;
-
+ 
 		if (firstElement->valor == inputValue) {
 			free(firstElement);
 			firstElement = nextElement;
 			break;
 		}
 
-		if(nextElement->valor == inputValue) {
+		if (nextElement->valor == inputValue) {
 			aux->prox = nextElement->prox;
 
 			free(nextElement);
@@ -202,8 +202,6 @@ void searchElement() {
 	cout << element->valor;
 }
 
-// retorna um ponteiro para o elemento buscado
-// ou NULL se o elemento n�o estiver na lista
 Node* elementPosition(int value) {
 	Node* current = firstElement;
 
@@ -213,6 +211,6 @@ Node* elementPosition(int value) {
 		}
 		current = current->prox;
 	}
-	
+
 	return current;
 }
