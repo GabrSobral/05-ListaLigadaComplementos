@@ -69,8 +69,8 @@ void menu() {
 			break;
 		}
 
-		// system("pause"); // somente no windows
-		system("read -p 'Press [Enter] key to start ...'"); // somente no linux
+		system("pause"); // somente no windows
+		// system("read -p 'Press [Enter] key to start ...'"); // somente no linux
 	}
 }
 
